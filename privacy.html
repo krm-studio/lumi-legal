@@ -47,6 +47,7 @@
   <tr><td>Email address</td><td>To sign you in with a 6-digit code and restore your progress. No marketing emails.</td><td>Only if you choose "Continue with email"</td></tr>
   <tr><td>Google account email and Google user ID</td><td>To sign you in with Google and restore your progress</td><td>Only if you choose "Continue with Google"</td></tr>
   <tr><td>Your invite code, and which account's code you used (if any)</td><td>To give you and your friend the 2 free weeks, and to stop the same code being used twice</td><td>When you open "Invite a friend" or redeem a friend's code</td></tr>
+  <tr><td>Gift codes you buy or redeem, and the recipient's email if you choose to send a gift by email</td><td>To deliver the gift, let the recipient redeem it once, and void it if the purchase is refunded</td><td>When you buy or redeem a gift</td></tr>
   <tr><td>Premium status and expiry date</td><td>To unlock Premium on all your devices</td><td>When you buy or restore a subscription</td></tr>
 </table>
 </div>
@@ -58,6 +59,7 @@ classes. We do not sell them, share them with advertisers or use them for advert
   <li><strong>Supabase</strong> (database and sign-in): stores the data in section 3.</li>
   <li><strong>RevenueCat</strong> (subscriptions): receives your random account ID and your purchase and subscription
     status from Google Play. RevenueCat never receives your health information.</li>
+  <li><strong>Resend</strong> (email delivery): only if you send a gift by email; receives the recipient's email address and the gift code.</li>
   <li><strong>Google Play</strong> (payments): handles payment. We never see your card details.</li>
   <li><strong>Google Sign-In</strong>: only if you choose it; Google shares your email and account ID with us.</li>
   <li><strong>Google AdMob</strong> (ads in the free version): shows ads only between classes, never during exercise.
